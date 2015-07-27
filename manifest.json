@@ -1,0 +1,21 @@
+{
+    "name": "Twitch emotes",
+    "version": "0.1",
+    "description": "Twitch emotes add.",
+    "homepage_url": "http://ecigtime.ru",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.twitch.tv/*"
+            ],
+            "include_globs":[
+                "*twitch.tv/*"
+            ],
+            "js": [
+                "jquery-2.1.4.min.js",
+                "script.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
